@@ -7,7 +7,7 @@ WelcomeCOLOR='\033[1;33m'
 
 i=0
 
-# Read file line by line into array
+# Read file line by line into array 
 while IFS= read -r line
 do
     arr[$i]="$line"
