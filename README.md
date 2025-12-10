@@ -16,20 +16,24 @@ Easy integration with ~/.bashrc
 Works on all Linux distributions
 
 ## 📂 File Structure
-`
+
+```
 PwnBanner/
 │── PwnBanner.sh
 │── quotes.txt
 │── README.md
-`
+```
 
 ## 🛠️ Installation
 1️⃣ Clone the repository
+
 `
 git clone https://github.com/dhruva127/PwnBanner
 cd PwnBanner
 `
+
 2️⃣ Make the script executable
+
 `
 chmod +x PwnBanner.sh
 `
@@ -37,11 +41,13 @@ chmod +x PwnBanner.sh
 3️⃣ Add it to your ~/.bashrc
 
 Open bashrc:
+
 `
 nano ~/.bashrc
 `
 
 Add this line at the end:
+
 `
 bash /path/to/PwnBanner/PwnBanner.sh
 `
@@ -53,6 +59,7 @@ ENTER
 CTRL + X
 
 4️⃣ Reload bashrc
+
 `
 source ~/.bashrc
 `
@@ -60,6 +67,7 @@ source ~/.bashrc
 Now every time you open a terminal, you’ll see a colorful random quote banner!
 
 ## ✨ Example Output
+
 ```
 -------------------------------------------------------------------
 ============= Welcome back username =============
@@ -67,9 +75,11 @@ Now every time you open a terminal, you’ll see a colorful random quote banner!
 "The quieter you become, the more you are able to hear."
 -------------------------------------------------------------------
 ```
+
 ## 🎨 Customizing Colors
 
 You can modify the color variables inside the script:
+
 `
 REDCOLOR='\E[31m'
 QOUTECOLOR='\E[36m'
