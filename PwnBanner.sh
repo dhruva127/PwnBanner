@@ -12,7 +12,7 @@ while IFS= read -r line
 do
     arr[$i]="$line"
     ((i++))
-done < /home/dhruv/Bash/quotes.txt 
+done < /home/dhruv/Bash/quotes.txt #change it with your path
 
 # Generate a random index
 random=$((RANDOM % i))
@@ -22,3 +22,5 @@ echo -e "${WelcomeCOLOR}============= Welcome back $(whoami) ============="
 echo -e "${REDCOLOR}-------------------------------------------------------------------"
 echo -e "${QOUTECOLOR}${arr[$random]}\n"
 echo -e "${REDCOLOR}-------------------------------------------------------------------${NC}"
+
+
