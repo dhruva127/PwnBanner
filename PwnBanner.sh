@@ -4,6 +4,17 @@ REDCOLOR='\033[31m'
 NC='\033[0m'
 QOUTECOLOR='\033[1;3;36m'
 WelcomeCOLOR='\033[1;33m'
+CYAN='\033[1;34m'
+
+# Banner You can chnage the banner or create custome banner using ASCII Art
+echo -e "${CYAN}"
+cat << "EOF"
+   __ _____  _______ _______  _______  __  ______   ___________     
+  / // / _ |/ ___/ //_/  _/ |/ / ___/ /  |/  / _ | / __/  _/ _ |    
+ / _  / __ / /__/ ,< _/ //    / (_ / / /|_/ / __ |/ _/_/ // __ |    
+/_//_/_/ |_\___/_/|_/___/_/|_/\___/ /_/  /_/_/ |_/_/ /___/_/ |_|                                                                                                  
+EOF
+echo -e "${NC}"
 
 i=0
 
